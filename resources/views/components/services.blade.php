@@ -27,7 +27,7 @@
                 <img src="images/serv-icon-1.svg" alt="">
                 <h4>DESIGN</h4>
                 <p>
-                    I create intuitive digital experiences that showcase your brand and build credibility with your customers. 
+                    I create intuitive digital experiences that showcase your brand and builds credibility. 
                 </p>
             </div>
 
