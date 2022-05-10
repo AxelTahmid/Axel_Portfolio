@@ -12,5 +12,6 @@
 
 <x-skills/>
 
+<x-contact/>
 
 </x-layout>

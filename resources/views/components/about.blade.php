@@ -13,15 +13,15 @@
     <ul class="about-info" data-threshold="0 0" data-jarallax-element="40 0">
         <li>
             <h6>EMAIL</h6>
-            <a href="mailto:jackob@yourwebsite.com">jackob@yourwebsite.com</a>
+            <a href="mailto:hello@tahmid.org">hello@tahmid.org</a>
         </li>
         <li>
             <h6>ROLE</h6>
-            <span>Lead Designer</span>
+            <span>Full Stack Developer</span>
         </li>
         <li>
             <h6>PHONE</h6>
-            <a href="tel:+987987654321">(+987) 987 654 321</a>
+            <a href="tel:+8801316687373">(+880) 131 668 7373</a>
         </li>
     </ul>
     <div class="about-text content-670">
