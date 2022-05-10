@@ -4,14 +4,15 @@
     <div class="content-670">
         <h2 class="title">SERVICES</h2>
         <div class="section-des">
-            Lorem ipsum dolor sit amet consectetu adipiscing elit viverra tristique placerat
+            {{-- I develop Software as a Service ( SaaS ) applications to automate business processes. --}}
+            I help create your digital presence and establish your brand globally.
         </div>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in sat massa consectetur quisque. Nunc aces fames lectus in libero aliquet ertare feraso est lorem nunc dolor sit amet settera aces volutpat in voltare lupar est phasellus.
+           A website is an asset for your business, side hustle or portfolio, and lets face it, first impressions matter. while building a website may already be on your to-do list, it's time to check it off. so <a href="#contact">lets work together</a> and spread your brands story with the world today~
         </p>
-        <p>
+        {{-- <p>
             Faucibus sed tristique fames sed aliquet ultricies eget viverra arcu. Vitae faucibus diam consequat aecenas. Turpis metus sit diam purus leo in varius ac quam. Nunc amet tristique set volutpat <a href="#">estars adipiscing</a> vulputate est phasellus. Volutpat faucibus per praesent aced nuncare voltare per settera lorem ipsum dolor.
-        </p>
+        </p> --}}
     </div>
 
     <ul class="serv-link-cover block-right" data-jarallax-element="0 40">
@@ -26,7 +27,7 @@
                 <img src="images/serv-icon-1.svg" alt="">
                 <h4>DESIGN</h4>
                 <p>
-                    A full stack allaround  designer that may or may not include a guide for specific createive
+                    I create intuitive digital experiences that showcase your brand and build credibility with your customers. 
                 </p>
             </div>
 
@@ -34,15 +35,15 @@
                 <img src="images/serv-icon-2.svg" alt="">
                 <h4>DEVELOP</h4>
                 <p>
-                    Tellus pharetra erat tristique erat donec dignissim etiam sed malesuada enim sodales
+                    Be it a website, or a service application, I have a portfolio which speaks.
                 </p>
             </div>
 
             <div class="serv-block-item">
                 <img src="images/serv-icon-3.svg" alt="">
-                <h4>WRITE</h4>
+                <h4>MAINTAIN</h4>
                 <p>
-                    A full stack allaround  designer that may or may not include a guide for specific createive
+                    I won't abandon you after development and help you maintain the project
                 </p>
             </div>
 
@@ -50,7 +51,7 @@
                 <img src="images/serv-icon-4.svg" alt="">
                 <h4>PROMOTE</h4>
                 <p>
-                    Tellus pharetra erat tristique erat donec dignissim etiam sed malesuada enim sodales
+                  From integrating Google tags, Analytics and Pixel to getting the website SEO and SEM heavy.
                 </p>
             </div>
 

@@ -6,9 +6,9 @@
 
 <x-about/>
                
-<x-portfolio/>
+{{-- <x-portfolio/> --}}
 
-<x-blog/>
+{{-- <x-blog/> --}}
 
 <x-skills/>
 
