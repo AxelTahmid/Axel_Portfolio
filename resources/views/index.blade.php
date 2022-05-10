@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="{{ asset('css/prettyPhoto.css') }}">
         <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
         <!--[if lt IE 9]>
             <script src="js/html5shiv.js"></script>            
@@ -463,6 +463,6 @@
         <script type="text/javascript" src="{{  asset('js/isotope.pkgd.js') }} "></script>        
         <script type="text/javascript" src="{{  asset('js/jquery.prettyPhoto.js') }} "></script>                
         <script type="text/javascript" src='{{  asset('js/owl.carousel.min.js') }} '></script>                                                            
-        <script type="text/javascript" src="{{  asset('js/main.js') }}"></script>
+        <script type="text/javascript" src="{{  asset('js/app.js') }}"></script>
     </body>
 </html>
