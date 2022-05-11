@@ -30,7 +30,7 @@ class ContactController extends Controller
             'name' => $input['name'],
             'email' => $input['email'],
             'subject' => $input['subject'],
-            'message' => $input['message'],
+            'user_message' => $input['message'],
 
         ), function ($message) use ($request) {
 

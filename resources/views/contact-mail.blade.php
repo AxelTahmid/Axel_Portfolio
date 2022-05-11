@@ -1,22 +1,13 @@
- 
-<h2>Form Received! </h2> <br><br> 
+<h2>Hello Admin,</h2>
 
- 
-You received an email from : {{ $name }} <br><br> 
+You received an email from : {{ $name }} <br>
 
- 
+Here are the details: <br><br>
 
-User details: <br><br> 
+<b>Name:</b> {{ $name }} <br>
+<b>Email:</b> {{ $email }} <br>
+<b>Subject:</b> {{ $subject }} <br>
+<b>Message:</b> {{ $user_message }} <br><br>
 
- 
-
-Name:  {{ $name }}<br> 
-
-Email:  {{ $email }}<br> 
-
-Subject:  {{ $subject }}<br> 
-
-Message:  {!! $subject !!}<br><br> 
-
- 
-This is was submitted in a contact form on www.tahmid.org
+Thank You.                                                              
+                                
