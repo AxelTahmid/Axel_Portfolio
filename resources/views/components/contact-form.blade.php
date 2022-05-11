@@ -16,23 +16,24 @@
 
     <div class="content-670">
         <div class="contact-form">
-            {{-- <form method="POST" action="{{ route('contact-form.store') }}">  --}}
+            <form method="POST" action="{{ route('contact-form.store') }}"> 
+                {{ csrf_field() }} 
             <p>
-                <input id="name" type="text" name="your-name" placeholder="NAME">
+                <input id="name" type="text" name="your-name" placeholder="NAME" value="{{ old('name') }}">
             </p>
             <p>
-                <input id="contact-email" type="email" name="your-email" placeholder="EMAIL">
+                <input id="contact-email" type="email" name="your-email" placeholder="EMAIL" value="{{ old('email') }}">
             </p>                                    
             <p>
-                <input id="subject" type="text" name="your-subject" placeholder="SUBJECT">
+                <input id="subject" type="text" name="your-subject" placeholder="SUBJECT" value="{{ old('subject') }}">
             </p>
             <p>
-                <textarea id="message" name="your-message" placeholder="MESSAGE"></textarea>
+                <textarea id="message" name="your-message" placeholder="MESSAGE">{{ old('message') }}</textarea>
             </p>
             <p class="contact-submit-holder">
                 <input type="submit" value="SEND">
             </p>   
-            {{-- </form>                              --}}
+            </form>                             
         </div> 
     </div>
 
