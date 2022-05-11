@@ -151,8 +151,6 @@ img.block-right {
     z-index: 1;
     overflow: hidden;
     padding: 85px 100px 85px 200px;
-    /* new block  */
-    background-color: #24243e;
 }
 
 .nav-count {
