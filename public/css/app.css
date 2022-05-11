@@ -151,6 +151,8 @@ img.block-right {
     z-index: 1;
     overflow: hidden;
     padding: 85px 100px 85px 200px;
+    /* new block  */
+    background-color: #24243e;
 }
 
 .nav-count {
@@ -202,7 +204,7 @@ img.block-right {
     display: none;
     width: 100% !important;
     /* new block  */
-    color: #f0f0f0;
+    /* color: #f0f0f0; */
 }
 
 .nav-soc {
@@ -252,7 +254,7 @@ img.block-right {
     transition: .35s ease-out;
     /* background-color: #000000; */
     background-color:#f0f0f0 ;
-    color: #f0f0f0;
+    /* color: #f0f0f0; */
 }
 
 .nav-container .site-title:hover:before {
@@ -270,6 +272,8 @@ img.block-right {
     cursor: pointer;
     z-index: 10;
     background-color: #fff;
+    /* background-color: #0f0c29;
+    color: #0f0c29; */
 }
 
 .nav-btn.scroll-bottom {
@@ -286,12 +290,14 @@ img.block-right {
 
 .nav-btn.active .nav-btn-cover .menu-line {
     opacity: 0;
+ 
 }
 
 .nav-btn.active .nav-btn-cover:before {
     transform: rotate3d(0, 0, 1, 45deg) translate3d(0, 0, 0);
     margin-left: 0;
     width: 26px;
+    
 }
 
 .nav-btn.active .nav-btn-cover:after {
@@ -304,6 +310,7 @@ img.block-right {
     height: 20px;
     width: 30px;
     display: block;
+    
 }
 
 .nav-btn .nav-btn-cover .menu-line {
@@ -329,8 +336,7 @@ img.block-right {
     -webkit-transition: all 0.25s;
     transition: all 0.25s;
     top: 8px;
-    /* background-color: #000; */
-    background-color: #fff;
+    background-color: #000;
 }
 
 .nav-btn .nav-btn-cover:before {
@@ -1210,6 +1216,9 @@ p.contact-submit-holder {
 
     .s-nav {
         padding: 60px 100px 60px 200px;
+   /* new block  */
+   background-color: #24243e;
+   color: #24243e;
     }
 
     .nav-soc {
@@ -1283,6 +1292,9 @@ p.contact-submit-holder {
         overflow: auto;
         height: 100%;
         transition: .25s ease-in;
+           /* new block  */
+    background-color: #24243e;
+    color: #24243e;
     }
 
     .s-nav.active {
@@ -1290,6 +1302,9 @@ p.contact-submit-holder {
         box-shadow: 0 0 4px rgba(255, 240, 240, 0.5);
         left: 0;
         pointer-events: auto;
+           /* new block  */
+    background-color: #24243e;
+    color: #24243e;
     }
 
     .dropdown {
@@ -1414,6 +1429,9 @@ p.contact-submit-holder {
         z-index: 2;
         padding: 40px 15px 60px;
         margin-top: 46px;
+           /* new block  */
+    background-color: #24243e;
+    color: #24243e;
     }
 
     .page-wrapper {
@@ -1541,6 +1559,9 @@ p.contact-submit-holder {
 
     .s-nav {
         max-width: 100%;
+           /* new block  */
+    background-color: #24243e;
+    color: #24243e;
     }
 
     .serv-link-cover {
