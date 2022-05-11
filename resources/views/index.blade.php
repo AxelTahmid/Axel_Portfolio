@@ -1,17 +1,14 @@
-<x-layout>
+@extends('layouts.default')
 
-<x-home/>
+@section('content')
 
-<x-services/>
+@include('pages.home')
+@include('pages.services')
+@include('pages.about')
+{{-- @include('pages.portfolio')
+@include('pages.blog') --}}
+@include('pages.skills')
+@include('pages.contact-form')
 
-<x-about/>
-               
-{{-- <x-portfolio/> --}}
 
-{{-- <x-blog/> --}}
-
-<x-skills/>
-
-<x-contact-form/>
-
-</x-layout>
+@stop
