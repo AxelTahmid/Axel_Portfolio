@@ -1,4 +1,3 @@
-<!-- ==================== Contact ==================== -->
 <section id="contact" class="section">
     <h2 class="title">CONTACT</h2>
     <div class="section-des">
@@ -34,6 +33,4 @@
             </p>   
         </div> 
     </div>
-
 </section>
-<!-- ================== Contact END ================== -->

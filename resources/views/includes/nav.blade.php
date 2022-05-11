@@ -26,8 +26,8 @@
         </nav>
     </div>
     <ul class="nav-soc">
-        <li><a  href="">TW.</a></li>
+        <li><a  href="" style="pointer-events: none">TW.</a></li>
         <li><a target="_blank" href="https://www.linkedin.com/in/shahadat-hossain-tahmid-338a8b179/">IN.</a></li>
-        <li><a  href="">FB.</a></li>
+        <li><a  href="" style="pointer-events: none">FB.</a></li>
     </ul>
 </div>

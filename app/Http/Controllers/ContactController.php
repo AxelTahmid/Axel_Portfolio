@@ -25,7 +25,7 @@ class ContactController extends Controller
 
         //  Send mail to admin 
 
-        Mail::send('contact-mail', array(
+        Mail::send('email.contact', array(
 
             'name' => $input['name'],
             'email' => $input['email'],

@@ -1,18 +1,13 @@
- <!-- ================== SERVICES ================== -->
  <section id="services" class="section">
 
     <div class="content-670">
         <h2 class="title">SERVICES</h2>
         <div class="section-des">
-            {{-- I develop Software as a Service ( SaaS ) applications to automate business processes. --}}
             I help create your digital presence and establish your brand globally.
         </div>
         <p>
            A website is an asset for your business, side hustle or portfolio, and lets face it, first impressions matter. while building a website may already be on your to-do list, it's time to check it off. so <a href="#contact">lets work together</a> and spread your brands story with the world today~
         </p>
-        {{-- <p>
-            Faucibus sed tristique fames sed aliquet ultricies eget viverra arcu. Vitae faucibus diam consequat aecenas. Turpis metus sit diam purus leo in varius ac quam. Nunc amet tristique set volutpat <a href="#">estars adipiscing</a> vulputate est phasellus. Volutpat faucibus per praesent aced nuncare voltare per settera lorem ipsum dolor.
-        </p> --}}
     </div>
 
     <ul class="serv-link-cover block-right" data-jarallax-element="0 40">
@@ -58,4 +53,3 @@
         </div>
     </div>
 </section>
-<!-- ================ SERVICES END ================ -->

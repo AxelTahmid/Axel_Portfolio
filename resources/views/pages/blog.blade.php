@@ -1,4 +1,3 @@
- <!-- ==================== BLOG ==================== -->
  <section id="blog" class="section">
     <h2 class="title">BLOG</h2>
     <div class="section-des">
@@ -48,4 +47,3 @@
     </ul>
 
 </section>
-<!-- ================== BLOG END ================== -->

@@ -1,4 +1,3 @@
- <!-- ==================== PORTFOLIO ==================== -->
  <section id="portfolio" class="section">
     <h2 class="title">PORTFOLIO</h2>
     <div class="section-des">
@@ -72,4 +71,3 @@
         </div>                
     </div>   
 </section>
-<!-- ================== PORTFOLIO END ================== -->

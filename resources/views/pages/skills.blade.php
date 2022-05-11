@@ -1,4 +1,3 @@
- <!-- ================== SKILLS ================== -->
  <section id="skills" class="section">
     <h2 class="title">SKILLS</h2>
     <div class="section-des">
@@ -97,4 +96,3 @@
     </ul>
 
 </section>
-<!-- =============== SKILLS END =============== -->

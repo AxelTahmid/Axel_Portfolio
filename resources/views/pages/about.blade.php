@@ -1,4 +1,3 @@
- <!-- ==================== ABOUT ==================== -->
  <section id="about" class="section">
     <h2 class="title">ABOUT</h2>
     <div class="section-des">
@@ -9,7 +8,9 @@
             I am a full stack web developer with 2+ years of experience in building modern web applications using latest technologies. My skillset is focused around PHP and JavaScript, with production experience in Laravel & Vue.js Stack. 
         </p>
     </div>
-    <img class="about-img block-right" data-jarallax-element="0 -40" src="images/about-img.jpg" alt="">
+
+    <img class="about-img block-right" data-jarallax-element="0 -40" src="images/about.jpg" alt="">
+    
     <ul class="about-info" data-threshold="0 0" data-jarallax-element="40 0">
         <li>
             <h6>EMAIL</h6>
@@ -37,4 +38,3 @@
     </div>
     {{-- <img class="signature" src="images/signature.svg" alt=""> --}}
 </section>
-<!-- ================== ABOUT END ================== -->
