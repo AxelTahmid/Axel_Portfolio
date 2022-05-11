@@ -238,6 +238,8 @@ img.block-right {
     margin-bottom: 51px;    
     position: relative;
     display: inline-block;
+    /* new block  */
+    color: #f0f0f0;
 }
 
 .nav-container .site-title:before {

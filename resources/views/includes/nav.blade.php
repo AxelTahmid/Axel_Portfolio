@@ -12,7 +12,7 @@
         <div class="total-pages-num">07</div>
     </div>                                                            
     <div class="nav-container">
-        <a class="site-title slow-scroll" href="#home">Shahadat Hossain</a>
+        <a class="site-title slow-scroll" href="#home" >Shahadat Hossain</a>
         <nav class="nav-menu">
             <ul class="nav-list">
                 <li><a href="#home">Home</a></li>
