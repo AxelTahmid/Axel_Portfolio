@@ -2,11 +2,11 @@
  <section id="about" class="section">
     <h2 class="title">ABOUT</h2>
     <div class="section-des">
-        Viverra tristique placerat  massa est consectetur quisque nu fames lorem ipsum dolor sit amet consectetu.
+        Anyone can code, but not everyone can solve a problem.   
     </div>
     <div class="content-670">
         <p>
-            Dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque. Nunc ac fames lectus in libero aliquet lorem ipsum dolor sit amet enim est urus tincidunt magna ut turpis eu, eu enim. Nisl porttitor elit risus velit urna morbi mauris.
+            I am a full stack web developer with 2+ years of experience in building modern web applications using latest technologies. My skillset is focused around PHP and JavaScript, with production experience in Laravel & Vue.js Stack. 
         </p>
     </div>
     <img class="about-img block-right" data-jarallax-element="0 -40" src="images/about-img.jpg" alt="">
@@ -26,13 +26,13 @@
     </ul>
     <div class="about-text content-670">
         <p>
-            Nam ultrices ultrices nec tortor pulvinar fermentum mi. Sociis sit tristique sagittis, mauris volutpat estera phasellus. Varius nec orci, quam augue lorem lines pellentesque non id. Tristique amet volutpat nunc euismod. Mauris <a href="#">felis at quam</a> sollicitudin est sempe vulputate id in nullam. Purus tincidunt maga ut turpis eu, eu enim. Nisl porttitor elit risus velit urna morbit mauris at proin laoreet lobortis urna aliquam setera fermentum sit iaculis vitae hendrerit et. Arcu ac est dictum lorem ispum dolor sit amet nunc usrus seio.
+            I believe that overcoming obstacles during development of an application improves the quality of code a developer writes. I have developed applications in both frontend and backend technologies and I can say that my experience in development of production ready applications makes me a decent real-life problem solver.
         </p>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in sat massa consectetur quisque. Nunc aces fames lectus in libero aliquet ertare feraso est lorem nunc dolor sit amet settera aces volutpat in voltare lupar est phasellus.
+            I love to tinker around with code and try to stay up to date with latest tech trends so that I dont fall behind in this age of rapid techonological advances. Therefore I am always learning and trying to improve myself.  I always maintain best practices and coding conventions based on industry standards.
         </p>
         <p>
-            Faucibus sed tristique fames sed aliquet ultricies eget viverra arcu. Vitae faucibus diam consequat aecenas. Turpis metus sit diam purus leo in varius ac quam. Nunc amet sei tristique set volutpat vulputate est phasellus. Volutpat faucibus per praesent aced no nuncare voltare per settera lorem ipsum dolor loboritas prion mauris varius est.
+           I always try to simplify my programs functional logic so that even a beginner understands what I wrote and include proper documentation for all my projects, so that even in my absence, someone else can easily pick up where I left off.
         </p>
     </div>
     <img class="signature" src="images/signature.svg" alt="">

@@ -2,7 +2,7 @@
  <section id="skills" class="section">
     <h2 class="title">SKILLS</h2>
     <div class="section-des">
-        Lorem ipsum dolor sit amet consectetu adipiscing elit viverra tristique placerat
+If you define a problem correctly, you almost have the solution.  - Steve Jobs
     </div>
     <p class="content-670">
         Viverra tristique placerat in sat massa consectetur quisque. Nunc aces fames lectus in libero aliquet ertare feraso est lorem nunc dolor sit amet settera aces volutpat in voltare lupar est phasellus. Faucibus sed tristique fames sed aliquet ultricies eget viverra arcu.
