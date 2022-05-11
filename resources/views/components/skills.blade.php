@@ -40,58 +40,58 @@
 
     <ul class="skills-progress">
         <li>
-            <span class="name">PHOTOSHOP</span>
+            <span class="name">HTML</span>
             <div class="skill">
-                <div class="skill-fill" data-fill="55%"></div>
+                <div class="skill-fill" data-fill="85%"></div>
             </div>
         </li>
 
         <li>
-            <span class="name">ILLUSTRATOR</span>
+            <span class="name">Laravel</span>
             <div class="skill">
-                <div class="skill-fill" data-fill="68%"></div>
+                <div class="skill-fill" data-fill="75%"></div>
             </div>
         </li>
 
         <li>
-            <span class="name">MARKETING</span>
+            <span class="name">CSS</span>
+            <div class="skill">
+                <div class="skill-fill" data-fill="65%"></div>
+            </div>
+        </li>
+
+        <li>
+            <span class="name">Vue / Nuxt</span>
             <div class="skill">
                 <div class="skill-fill" data-fill="80%"></div>
             </div>
         </li>
 
         <li>
-            <span class="name">CREATIVITY</span>
+            <span class="name">JAVASCRIPT</span>
             <div class="skill">
-                <div class="skill-fill" data-fill="43%"></div>
+                <div class="skill-fill" data-fill="75%"></div>
             </div>
         </li>
 
         <li>
-            <span class="name">AFFINITY</span>
+            <span class="name">Strapi</span>
             <div class="skill">
-                <div class="skill-fill" data-fill="55%"></div>
+                <div class="skill-fill" data-fill="90%"></div>
             </div>
         </li>
 
         <li>
-            <span class="name">LANGUAGES</span>
+            <span class="name">PHP</span>
             <div class="skill">
-                <div class="skill-fill" data-fill="68%"></div>
+                <div class="skill-fill" data-fill="87%"></div>
             </div>
         </li>
 
         <li>
-            <span class="name">EDUCATION</span>
+            <span class="name">MySQL</span>
             <div class="skill">
-                <div class="skill-fill" data-fill="80%"></div>
-            </div>
-        </li>
-
-        <li>
-            <span class="name">DEVELOPING</span>
-            <div class="skill">
-                <div class="skill-fill" data-fill="43%"></div>
+                <div class="skill-fill" data-fill="77%"></div>
             </div>
         </li>
     </ul>

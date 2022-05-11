@@ -35,6 +35,6 @@
            I always try to simplify my programs functional logic so that even a beginner understands what I wrote and include proper documentation for all my projects, so that even in my absence, someone else can easily pick up where I left off.
         </p>
     </div>
-    <img class="signature" src="images/signature.svg" alt="">
+    {{-- <img class="signature" src="images/signature.svg" alt=""> --}}
 </section>
 <!-- ================== ABOUT END ================== -->
