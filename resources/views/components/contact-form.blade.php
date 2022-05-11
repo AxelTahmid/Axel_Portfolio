@@ -16,6 +16,7 @@
 
     <div class="content-670">
         <div class="contact-form">
+            {{-- <form method="POST" action="{{ route('contact-form.store') }}">  --}}
             <p>
                 <input id="name" type="text" name="your-name" placeholder="NAME">
             </p>
@@ -30,14 +31,15 @@
             </p>
             <p class="contact-submit-holder">
                 <input type="submit" value="SEND">
-            </p>                                
+            </p>   
+            {{-- </form>                              --}}
         </div> 
     </div>
 
 </section>
 <!-- ================== Contact END ================== -->
 
-<?php
+{{-- <?php
 
 $email = "axel.tahmid@gmail.com";
 
@@ -87,4 +89,4 @@ function SendEmail($message, $subject, $name, $from, $to) {
     return $isSent;
 }
 
-?>
+?> --}}

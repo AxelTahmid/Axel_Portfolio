@@ -364,7 +364,7 @@
                 };
                 $.ajax({
                     type: "POST",
-                    url: "php/sendMail.php",
+                    url: "/contact-form",
                     data: params,
                     success: function (response) {
                         if (response) {
