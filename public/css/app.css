@@ -28,11 +28,12 @@
 }
 
 *::selection {
-    background: #fff0f0;
+    /* background: #fff0f0; */
+    background: #0f0c29;
 }
 
 body {
-    color: #000000;
+    color: #f0f0f0;
     line-height: 2;
     font-size: 15px;
     font-family: "Poppins", sans-serif;
@@ -40,7 +41,8 @@ body {
     min-width: 320px;
     position: relative;
     overflow-x: hidden;
-    background: linear-gradient(to right, #fff0f0 0%, #fff0f0 60%, white 60%);
+    /* background: linear-gradient(to right, #fff0f0 0%, #fff0f0 60%, white 60%); */
+    background: linear-gradient(to right, #0f0c29 0%, #0f0c29 60%, #24243e 60%);
     background-position: center;
 }
 
@@ -100,7 +102,8 @@ img.block-right {
 .page-wrapper {
     pointer-events: auto;
     width: 100%;
-    background-color: #fff0f0;
+    /* background-color: #fff0f0; */
+    background-color: #0f0c29;
     max-width: 800px;
 }
 
@@ -186,6 +189,8 @@ img.block-right {
 
 .nav-list li a {
     display: inline-block;
+    /* new block  */
+    color: #f0f0f0;
 }
 
 .nav-list li.current a {
@@ -196,6 +201,8 @@ img.block-right {
     padding-left: 28px;
     display: none;
     width: 100% !important;
+    /* new block  */
+    color: #f0f0f0;
 }
 
 .nav-soc {
@@ -219,6 +226,8 @@ img.block-right {
     font-size: 12px;
     line-height: 30px;
     letter-spacing: 5px;
+    /* new block  */
+    color: #f0f0f0;
 }
 
 .nav-container .site-title {
@@ -239,7 +248,9 @@ img.block-right {
     height: 2px;
     width: calc(100% - 5px);
     transition: .35s ease-out;
-    background-color: #000000;
+    /* background-color: #000000; */
+    background-color:#f0f0f0 ;
+    color: #f0f0f0;
 }
 
 .nav-container .site-title:hover:before {
@@ -300,7 +311,8 @@ img.block-right {
     transition: all 0.25s;
     margin-left: 0;
     top: 8px;
-    background-color: #000;
+    /* background-color: #000; */
+    background-color: #fff;
 }
 
 .nav-btn .nav-btn-cover:after, 
@@ -315,7 +327,8 @@ img.block-right {
     -webkit-transition: all 0.25s;
     transition: all 0.25s;
     top: 8px;
-    background-color: #000;
+    /* background-color: #000; */
+    background-color: #fff;
 }
 
 .nav-btn .nav-btn-cover:before {
@@ -992,7 +1005,8 @@ div.pp_default .pp_description {
     font-size: 12px;
     line-height: 25px;
     letter-spacing: 3px;
-    color: #000;
+    /* color: #000; */
+    color: #f0f0f0;
     background-color: transparent;
     border: 0;
     border-bottom: 2px solid;
@@ -1029,7 +1043,8 @@ p.contact-submit-holder {
     vertical-align: middle;
     text-decoration: none;
     background-color: transparent;
-    color: #000;
+    /* color: #000; */
+    color: #f0f0f0;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     width: 100%;
@@ -1046,7 +1061,8 @@ p.contact-submit-holder {
 .contact-form input[type=email]::-webkit-input-placeholder, 
 .contact-form textarea::-webkit-input-placeholder {
     font-family: 'Poppins', sans-serif;
-    color: #000;
+    /* color: #000; */
+    color: #f0f0f0;
     font-weight: 400;
     font-size: 12px;
     line-height: 25px;    
@@ -1057,7 +1073,8 @@ p.contact-submit-holder {
 .contact-form input[type=email]:-ms-input-placeholder, 
 .contact-form textarea:-ms-input-placeholder {
     font-family: 'Poppins', sans-serif;
-    color: #000;
+    /* color: #000; */
+    color: #f0f0f0;
     font-weight: 400;
     font-size: 12px;
     line-height: 25px;    
@@ -1068,7 +1085,8 @@ p.contact-submit-holder {
 .contact-form input[type=email]::placeholder, 
 .contact-form textarea::placeholder {
     font-family: 'Poppins', sans-serif;
-    color: #000;
+    /* color: #000; */
+    color: #f0f0f0;
     font-weight: 400;
     font-size: 12px;
     line-height: 25px;
@@ -1329,7 +1347,8 @@ p.contact-submit-holder {
 @media (max-width: 1020px) {
 
     body {
-        background: #fff0f0;
+        /* background: #fff0f0; */
+        background: #0f0c29;
     }
 
 }
