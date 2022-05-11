@@ -19,6 +19,8 @@ class ContactController extends Controller
 
         $input = $request->all();
 
+        // dd($input);
+
         Contact::create($input);
 
         //  Send mail to admin 
@@ -32,11 +34,11 @@ class ContactController extends Controller
 
         ), function ($message) use ($request) {
 
-            $message->from($request->email);
+            // $message->from($request->email);
 
             $message->to('axel.tahmid@gmail.com', 'Axel')->subject($request->get('subject'));
         });
 
-        return redirect()->back()->with(['success' => 'Contact Form Submit Successfully']);
+        return response(['success' => 'Contact Form Submit Successfully']);
     }
 }

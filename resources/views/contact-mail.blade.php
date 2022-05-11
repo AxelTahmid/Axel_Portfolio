@@ -1,8 +1,7 @@
  
-<h2>Hello There! </h2> <br><br> 
+<h2>Form Received! </h2> <br><br> 
 
  
-
 You received an email from : {{ $name }} <br><br> 
 
  
