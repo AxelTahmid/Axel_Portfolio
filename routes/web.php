@@ -17,4 +17,8 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/color-game', function () {
+    return view('pages.colorgame');
+});
+
 Route::post('/contact-form', [App\Http\Controllers\ContactController::class, 'store'])->name('contact-form.store');
