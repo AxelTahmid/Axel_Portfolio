@@ -2,11 +2,12 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="description" content="Personal Portfolio Website" />
-<meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
+<meta name="keywords" content="HTML, CSS, JavaScript, PHP, Laravel" />
 <meta name="author" content="Shahadat Hossain Tahmid" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/fav.ico">
+
 <link href='https://fonts.googleapis.com/css?family=Poppins:200,400,500,700,800&display=swap' rel='stylesheet' type='text/css'>                     
 <link rel="stylesheet"  type='text/css' href="{{ asset('css/clear.css') }}">
 <link rel="stylesheet"  type='text/css' href="{{ asset('css/bootstrap-grid.css') }}">        

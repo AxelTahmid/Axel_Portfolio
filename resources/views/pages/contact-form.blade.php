@@ -10,7 +10,7 @@
     </div>
 
     <a href="https://goo.gl/maps/aj33VEoc8qWVhwXUA" target="_blank">
-        <img class="block-right" src="images/map.png" alt="">                    
+        <img class="block-right" src="images/contact.jpg" alt="">                    
     </a>
 
     <div class="content-670">
