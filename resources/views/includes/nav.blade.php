@@ -12,7 +12,7 @@
         <div class="total-pages-num">07</div>
     </div>                                                            
     <div class="nav-container">
-        <a class="site-title slow-scroll" href="#home" >{{ "Shahadat Hossain" }}</a>
+        <a class="site-title slow-scroll" href="#home" >{{ "Shahadat Hossain Tahmid" }}</a>
         <nav class="nav-menu">
             <ul class="nav-list">
                 <li><a href="#home">{{ "Home" }}</a></li>
@@ -26,8 +26,8 @@
         </nav>
     </div>
     <ul class="nav-soc">
-        <li><a  href="" style="pointer-events: none">TW.</a></li>
-        <li><a target="_blank" href="https://www.linkedin.com/in/shahadat-hossain-tahmid-338a8b179/">IN.</a></li>
-        <li><a  href="" style="pointer-events: none">FB.</a></li>
+        <li><a  href="" style="pointer-events: none">{{ "TW." }}</a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/shahadat-hossain-tahmid-338a8b179/">{{ "IN." }}</a></li>
+        <li><a target="_blank" href="https://github.com/AxelTahmid" >{{ "GIT." }}</a></li>
     </ul>
 </div>

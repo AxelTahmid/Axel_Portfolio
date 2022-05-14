@@ -11,14 +11,14 @@
            first impressions matter. while building a 
            website may already be on your to-do list, 
            it's time to check it off. so" }} 
-           <a href="#contact">{{ "lets work together" }}</a> 
+           <a class="slow-scroll" href="#contact">{{ "lets work together" }}</a> 
            {{ "and spread your brands story with the world today~" }}
         </p>
     </div>
 
     <ul class="serv-link-cover block-right" data-jarallax-element="0 40">
-        <li><a href="#services" >{{ "DOWNLOAD CV" }}</a></li>
-        <li><a href="#services" >{{ "MY PORTFOLIO" }}</a></li>
+        <li><a class="slow-scroll" href="#services" >{{ "DOWNLOAD CV" }}</a></li>
+        <li><a class="slow-scroll" href="#services" >{{ "MY PORTFOLIO" }}</a></li>
     </ul>
 
     <div class="content-670">
