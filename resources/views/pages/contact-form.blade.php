@@ -1,5 +1,5 @@
 <section id="contact" class="section">
-    <h2 class="title">CONTACT</h2>
+    <h2 class="title">{{ 'CONTACT' }}</h2>
     <div class="section-des">
         Do you want to work together or discuss an idea? Let's tech-talk.
     </div>

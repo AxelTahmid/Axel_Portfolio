@@ -7,13 +7,13 @@
 </head>
 
 <body>
-	<h1>A Lame <br> <span id="colorDisplay">RGB</span> <br> Guessing Game</h1>
+	<h1>{{ "A Lame" }} <br> <span id="colorDisplay">{{ "RGB" }}</span> <br> {{ "Guessing Game" }}</h1>
 
 <div id="stripe">
-	<button id="reset">New Colors</button>
+	<button id="reset">{{ "New Colors" }}</button>
 	<span id="message"></span>
-	<button class="mode">Easy</button>
-	<button class="mode selected">Hard</button>
+	<button class="mode">{{ "Easy" }}</button>
+	<button class="mode selected">{{ "Hard" }}</button>
 	
 </div>
 

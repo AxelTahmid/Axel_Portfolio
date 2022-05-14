@@ -1,5 +1,5 @@
  <section id="blog" class="section">
-    <h2 class="title">BLOG</h2>
+    <h2 class="title">{{ 'BLOG' }}</h2>
     <div class="section-des">
         Viverra tristique placerat  massa est consectetur quisque nu fames lorem
     </div>
