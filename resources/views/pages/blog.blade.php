@@ -1,7 +1,7 @@
  <section id="blog" class="section">
     <h2 class="title">{{ 'BLOG' }}</h2>
     <div class="section-des">
-        Viverra tristique placerat  massa est consectetur quisque nu fames lorem
+        {{ "Some posts about things I find interesting. Feel free to read up on them" }}
     </div>
 
     <ul class="home-blog-list">                        
@@ -29,21 +29,7 @@
             </div>
         </li>
 
-        <li>
-            <a href="{{ route('single-blog') }}">Citizens of distant epochs van  apollonius</a>
-            <div class="blog-list-info">
-                <div class="date">AUG 7, 2020</div>
-                <div class="category">BUSINESS</div>
-            </div>
-        </li>
-
-        <li>
-            <a href="{{ route('single-blog') }}">Encyclopaedia galactica shores of cosmic</a>
-            <div class="blog-list-info">
-                <div class="date">JUN 16, 2020</div>
-                <div class="category">DESIGN</div>
-            </div>
-        </li>                                                
+                                           
     </ul>
 
 </section>
