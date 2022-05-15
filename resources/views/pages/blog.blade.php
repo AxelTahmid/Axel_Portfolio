@@ -6,7 +6,7 @@
 
     <ul class="home-blog-list">                        
         <li>
-            <a href="single-blog.html">The carbon in our apple pies vanquis</a>
+            <a href="{{ route('single-blog') }}">The carbon in our apple pies vanquis</a>
             <div class="blog-list-info">
                 <div class="date">MAR 25, 2021</div>
                 <div class="category">BRANDING</div>
@@ -14,7 +14,7 @@
         </li>
 
         <li>
-            <a href="single-blog.html">Perga white dwarf tesseract worldlets</a>
+            <a href="{{ route('single-blog') }}">Perga white dwarf tesseract worldlets</a>
             <div class="blog-list-info">
                 <div class="date">FEB 2, 2021</div>
                 <div class="category">ART</div>
@@ -22,7 +22,7 @@
         </li>
 
         <li>
-            <a href="single-blog.html">Network of wormholes astonishment</a>
+            <a href="{{ route('single-blog') }}">Network of wormholes astonishment</a>
             <div class="blog-list-info">
                 <div class="date">NOV 13, 2020</div>
                 <div class="category">INTERIOR</div>
@@ -30,7 +30,7 @@
         </li>
 
         <li>
-            <a href="single-blog.html">Citizens of distant epochs van  apollonius</a>
+            <a href="{{ route('single-blog') }}">Citizens of distant epochs van  apollonius</a>
             <div class="blog-list-info">
                 <div class="date">AUG 7, 2020</div>
                 <div class="category">BUSINESS</div>
@@ -38,7 +38,7 @@
         </li>
 
         <li>
-            <a href="single-blog.html">Encyclopaedia galactica shores of cosmic</a>
+            <a href="{{ route('single-blog') }}">Encyclopaedia galactica shores of cosmic</a>
             <div class="blog-list-info">
                 <div class="date">JUN 16, 2020</div>
                 <div class="category">DESIGN</div>

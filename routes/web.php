@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/blog', function () {
+    return view('single-blog');
+})->name('single-blog');
+
 Route::get('/color-game', function () {
     return view('pages.colorgame');
 });

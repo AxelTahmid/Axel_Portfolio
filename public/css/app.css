@@ -251,7 +251,6 @@ img.block-right {
     height: 2px;
     width: calc(100% - 5px);
     transition: .35s ease-out;
-    /* background-color: #000000; */
     background-color:#f0f0f0 ;
     /* color: #f0f0f0; */
 }
@@ -863,13 +862,13 @@ div.pp_default .pp_description {
 }
 
 .home-blog-list li + li {
-    border-top: 2px solid #fff;
+    border-top: 2px solid #f0f0f0;
 }
 
 .home-blog-list li a {
     font-size: 26px;
     margin-right: 30px;
-    color: #000;
+    color: #f0f0f0;
 }
 
 .home-blog-list li a:hover {
