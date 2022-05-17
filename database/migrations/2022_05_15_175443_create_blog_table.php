@@ -13,17 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('blog', function (Blueprint $table) {
+        Schema::create('blogs', function (Blueprint $table) {
             $table->id();
             $table->text('title');
             $table->longText('content')->nullable();
-            $table->unsignedBigInteger('author_id');
-            $table->unsignedBigInteger('category')->nullable();
             $table->timestamps();
-
-
-            $table->foreign('author_id')->references('id')->on('author');
-            $table->foreign('category')->references('id')->on('blog_category');
+            $table->foreignId('author_id')->constrained(); // looks for plural named table authors and references its "id"
+            $table->foreignId('category_id')->nullable()->constrained();
         });
     }
 
@@ -34,6 +30,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('blog');
+        Schema::dropIfExists('blogs');
     }
 };

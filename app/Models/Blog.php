@@ -12,7 +12,7 @@ class Blog extends Model
      *
      * @var string
      */
-    protected $table = 'blog';
+    protected $table = 'blogs';
 
     protected $fillable = ['title', 'content', 'author_id', 'category'];
 

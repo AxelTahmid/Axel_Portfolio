@@ -12,7 +12,7 @@ class Author extends Model
      *
      * @var string
      */
-    protected $table = 'author';
+    protected $table = 'authors';
 
     protected $fillable = ['name', 'email'];
 

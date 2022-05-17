@@ -13,16 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::view('/', 'index');
+Route::view('/blog', 'single-blog')->name('single-blog');
+Route::view('/color-game', 'pages.colorgame');
 
-Route::get('/blog', function () {
-    return view('single-blog');
-})->name('single-blog');
-
-Route::get('/color-game', function () {
-    return view('pages.colorgame');
-});
 
 Route::post('/contact-form', [App\Http\Controllers\ContactController::class, 'store'])->name('contact-form.store');
