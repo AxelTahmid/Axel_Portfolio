@@ -20,7 +20,7 @@ Route::view('/color-game', 'pages.colorgame');
 
 Route::get('/optimize-clear', function () {
     Artisan::call('optimize:clear');
-    Artisan::call('optimize:');
+    Artisan::call('optimize');
     dd('optimize:clear & optimize done');
 });
 
