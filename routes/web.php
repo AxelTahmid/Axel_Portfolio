@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,5 +18,10 @@ Route::view('/', 'index');
 Route::view('/blog', 'single-blog')->name('single-blog');
 Route::view('/color-game', 'pages.colorgame');
 
+Route::get('/optimize-clear', function () {
+    Artisan::call('optimize:clear');
+    Artisan::call('optimize:');
+    dd('optimize:clear & optimize done');
+});
 
 Route::post('/contact-form', [App\Http\Controllers\ContactController::class, 'store'])->name('contact-form.store');
