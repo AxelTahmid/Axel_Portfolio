@@ -14,7 +14,7 @@ class Blog extends Model
      */
     protected $table = 'blogs';
 
-    protected $fillable = ['title', 'content', 'author_id', 'category'];
+    protected $fillable = ['title', 'content', 'author_id', 'category_id'];
 
     public function author()
     {
