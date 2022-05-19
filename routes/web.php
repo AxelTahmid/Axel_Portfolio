@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 
@@ -24,4 +25,4 @@ Route::get('/optimize-clear', function () {
     dd('optimize:clear & optimize done');
 });
 
-Route::post('/contact-form', [App\Http\Controllers\ContactController::class, 'store'])->name('contact-form.store');
+Route::post('/contact-form', ContactController::class);

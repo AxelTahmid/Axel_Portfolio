@@ -2,35 +2,23 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ContactFormPostRequest;
 use App\Models\Contact;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
-    public function store(Request $request)
+    public function __invoke(ContactFormPostRequest $request)
     {
-        $request->validate([
-            'name' => 'required',
-            'email' => 'required|email',
-            'subject' => 'required',
-            'message' => 'required',
-        ]);
-
-        $input = $request->all();
-
-        // dd($input);
-
-        Contact::create($input);
+        Contact::create($request);
 
         //  Send mail to admin 
-
         Mail::send('email.contact', array(
 
-            'name' => $input['name'],
-            'email' => $input['email'],
-            'subject' => $input['subject'],
-            'user_message' => $input['message'],
+            'name' => $request['name'],
+            'email' => $request['email'],
+            'subject' => $request['subject'],
+            'user_message' => $request['message'],
 
         ), function ($message) use ($request) {
 
