@@ -19,10 +19,9 @@ Route::view('/', 'index');
 Route::view('/blog', 'single-blog')->name('single-blog');
 Route::view('/color-game', 'pages.colorgame');
 
-Route::get('/optimize-clear', function () {
+Route::get('/clear', function () {
     Artisan::call('optimize:clear');
-    Artisan::call('optimize');
-    dd('optimize:clear & optimize done');
+    dd('optimize:clear done');
 });
 
 Route::post('/contact-form', ContactController::class);

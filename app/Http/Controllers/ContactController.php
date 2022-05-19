@@ -10,21 +10,24 @@ class ContactController extends Controller
 {
     public function __invoke(ContactFormPostRequest $request)
     {
-        Contact::create($request);
+        $form_data = $request->validated();
+
+        Contact::create($form_data);
 
         //  Send mail to admin 
+
         Mail::send('email.contact', array(
 
-            'name' => $request['name'],
-            'email' => $request['email'],
-            'subject' => $request['subject'],
-            'user_message' => $request['message'],
+            'name' => $form_data['name'],
+            'email' => $form_data['email'],
+            'subject' => $form_data['subject'],
+            'user_message' => $form_data['message'],
 
-        ), function ($message) use ($request) {
+        ), function ($message) use ($form_data) {
 
             // $message->from($request->email);
 
-            $message->to('axel.tahmid@gmail.com', 'Axel')->subject($request->get('subject'));
+            $message->to('axel.tahmid@gmail.com', 'Axel')->subject($form_data['subject']);
         });
 
         return response(['success' => 'Contact Form Submit Successfully']);

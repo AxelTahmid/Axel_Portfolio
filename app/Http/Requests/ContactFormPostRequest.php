@@ -13,7 +13,8 @@ class ContactFormPostRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        // this true here will authorize the csrf token passed
+        return true;
     }
 
     /**
