@@ -6,7 +6,7 @@ use App\Http\Requests\ContactFormPostRequest;
 use App\Models\EmailContact;
 use Illuminate\Support\Facades\Mail;
 
-class ContactController extends Controller
+class EmailContactController extends Controller
 {
     public function __invoke(ContactFormPostRequest $request)
     {
