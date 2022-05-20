@@ -24,4 +24,14 @@ Route::get('/clear', function () {
     dd('optimize:clear done');
 });
 
+Route::get('/login', function () {
+    return 'Login Form here';
+});
+
+Route::group(['middleware' => 'admin'], function () {
+    Route::get('/test', function () {
+        return 'test test';
+    });
+});
+
 Route::post('/contact-form', EmailContactController::class);
