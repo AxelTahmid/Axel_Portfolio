@@ -16,11 +16,13 @@ class HasAdminRole
      */
     public function handle(Request $request, Closure $next)
     {
-        // if (auth()->user() && auth()->user()->is_admin) {
-        //     return $next($request);
-        // }
-        // return redirect('/login')->with('error', 'Permission Denied!!! You do not have administrative access.');
+        // return auth()->user() && auth()->user()->is_admin ?  $next($request) :  redirect('/login');
 
-        return auth()->user() && auth()->user()->is_admin ?  $next($request) :  redirect('/login');
+        if (auth()->user() && auth()->user()->is_admin) {
+            return $next($request);
+        }
+
+        abort(403, 'Access denied');
+        // return redirect('/login')->with('error', 'Permission Denied!!! You do not have administrative access.');
     }
 }
