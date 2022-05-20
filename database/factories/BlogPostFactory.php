@@ -17,7 +17,10 @@ class BlogPostFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'title' => $this->faker->title(),
+            'content' => $this->faker->paragraph(),
+            'author_id' => App\Model\Author::class,
+            'category_id' => App\Model\BlogCategory::class,
         ];
     }
 }

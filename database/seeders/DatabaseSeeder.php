@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\Author;
 use App\Models\BlogCategory;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\BlogPost;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
@@ -27,8 +27,8 @@ class DatabaseSeeder extends Seeder
             'remember_token' => 'mehmeh',
         ]);
 
-        Author::factory(10)->create();
-        BlogCategory::factory(20)->create();
-        
+        // Author::factory(10)->create();
+        // BlogCategory::factory(20)->create();
+        // BlogPost::factory(5)->hasAuthor(1)->hasCategory(1)->create();
     }
 }
