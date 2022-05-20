@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\ContactController;
+use App\Http\Controllers\EmailContactController;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 
@@ -24,4 +24,4 @@ Route::get('/clear', function () {
     dd('optimize:clear done');
 });
 
-Route::post('/contact-form', ContactController::class);
+Route::post('/contact-form', EmailContactController::class);

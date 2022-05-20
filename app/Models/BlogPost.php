@@ -5,14 +5,14 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Blog extends Model
+class BlogPost extends Model
 {
     /**
      * The table associated with the model.
      *
      * @var string
      */
-    protected $table = 'blogs';
+    protected $table = 'blog_posts';
 
     protected $fillable = ['title', 'content', 'author_id', 'category_id'];
 

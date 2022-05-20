@@ -18,6 +18,6 @@ class Author extends Model
 
     public function blog()
     {
-        return $this->belongsToMany(Blog::class);
+        return $this->belongsToMany(BlogPost::class);
     }
 }

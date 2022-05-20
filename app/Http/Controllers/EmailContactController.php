@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\ContactFormPostRequest;
-use App\Models\Contact;
+use App\Models\EmailContact;
 use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
@@ -12,7 +12,7 @@ class ContactController extends Controller
     {
         $form_data = $request->validated();
 
-        Contact::create($form_data);
+        EmailContact::create($form_data);
 
         //  Send mail to admin 
 

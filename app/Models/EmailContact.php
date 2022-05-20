@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Contact extends Model
+class EmailContact extends Model
 {
     use HasFactory;
 
@@ -18,10 +18,9 @@ class Contact extends Model
      * @var array 
 
      */
+    protected $table = 'email_contacts';
 
-    public $fillable = [
-
+    protected $fillable = [
         'name', 'email', 'subject', 'message'
-
     ];
 }
