@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'index');
 Route::view('/blog', 'single-blog')->name('single-blog');
 Route::view('/color-game', 'pages.colorgame')->name('colorgame');
+Route::post('/contact-form', EmailContactController::class);
 
 
 Route::get('/login', [AuthController::class, 'index']);
@@ -31,8 +32,7 @@ Route::get('/clear', function () {
 });
 
 Route::group(['middleware' => 'admin'], function () {
+
     Route::view('/dashboard', 'admin.dashboard')->name('dashboard');
     Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 });
-
-Route::post('/contact-form', EmailContactController::class);

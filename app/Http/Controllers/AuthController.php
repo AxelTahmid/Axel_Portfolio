@@ -8,13 +8,14 @@ use Illuminate\Support\Facades\Auth;
 class AuthController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Display the login page. If user authenticated 
+     * redirect to dashboard
      *
      * @return \Illuminate\Http\Response
      */
     public function index()
     {
-        
+        return Auth::check() ? redirect('/dashboard') : view('auth.login');
     }
 
     /**
@@ -33,9 +34,7 @@ class AuthController extends Controller
         ]);
 
         if (Auth::attempt($credentials, $remember)) {
-
             $request->session()->regenerate();
-
             return redirect()->intended('dashboard');
         }
 
@@ -59,6 +58,6 @@ class AuthController extends Controller
 
         $request->session()->regenerateToken();
 
-        return redirect('login');
+        return redirect('/login');
     }
 }
