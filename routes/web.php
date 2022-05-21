@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\EmailContactController;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
@@ -17,19 +18,21 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'index');
 Route::view('/blog', 'single-blog')->name('single-blog');
-Route::view('/color-game', 'pages.colorgame');
+Route::view('/color-game', 'pages.colorgame')->name('colorgame');
+
+
+Route::get('/login', [AuthController::class, 'index']);
+Route::post('/login', [AuthController::class, 'login'])->name('login');
+
 
 Route::get('/clear', function () {
     Artisan::call('optimize:clear');
-    dd('optimize:clear done');
+    return redirect('/');
 });
 
-Route::view('/login', 'auth.login');
-
 Route::group(['middleware' => 'admin'], function () {
-    Route::get('/test', function () {
-        return 'test test';
-    });
+    Route::view('/dashboard', 'admin.dashboard')->name('dashboard');
+    Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 });
 
 Route::post('/contact-form', EmailContactController::class);

@@ -26,7 +26,7 @@
     @yield('content')
 
   <!-- plugins:js -->
-  <script type="text/javascript" src="{{  asset('admin/js/vendor/jquery.min.js') }}"></script>
+  <script type="text/javascript" src="{{  asset('admin/js/vendor/bundle.base.js') }}"></script>
   <!-- endinject -->
   <!-- Plugin js for this page -->
   <!-- End plugin js for this page -->
