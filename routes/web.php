@@ -15,9 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/', 'frontend.index');
-Route::view('/blog', 'frontend.single-blog')->name('single-blog');
-Route::view('/color-game', 'frontend.pages.colorgame');
+Route::view('/', 'index');
+Route::view('/blog', 'single-blog')->name('single-blog');
+Route::view('/color-game', 'pages.colorgame');
 
 Route::get('/clear', function () {
     Artisan::call('optimize:clear');

@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
     <head>
-        @include('frontend.includes.head')
+        @include('includes.head')
     </head>
 
     <body class="one-page"> 
@@ -11,12 +11,12 @@
         <div class="container">
             <div class="page-wrapper">
 
-               @include('frontend.includes.nav')
+               @include('includes.nav')
 
                @yield('content')
 
             </div>
         </div>
-        @include('frontend.includes.footer')
+        @include('includes.footer')
     </body>
 </html>
