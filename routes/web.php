@@ -24,9 +24,7 @@ Route::get('/clear', function () {
     dd('optimize:clear done');
 });
 
-Route::get('/login', function () {
-    return 'Login Form here';
-});
+Route::view('/login', 'auth.login');
 
 Route::group(['middleware' => 'admin'], function () {
     Route::get('/test', function () {
