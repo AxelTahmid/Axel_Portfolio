@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\EmailContactController;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
@@ -31,8 +32,8 @@ Route::get('/clear', function () {
     return redirect('/');
 });
 
-Route::group(['middleware' => 'admin'], function () {
+Route::middleware(['auth', 'admin'])->group(function () {
 
-    Route::view('/dashboard', 'admin.dashboard')->name('dashboard');
+    Route::get('/dashboard', DashboardController::class)->name('dashboard');
     Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 });

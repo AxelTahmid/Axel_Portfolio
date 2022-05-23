@@ -17,18 +17,14 @@
 
     @yield('content')
 
-  <!-- plugins:js -->
+
   <script type="text/javascript" src="{{  asset('admin/js/vendor/bundle.base.js') }}"></script>
-  <!-- endinject -->
-  <!-- Plugin js for this page -->
-  <!-- End plugin js for this page -->
-  <!-- inject:js -->
+
   <script type="text/javascript" src="{{ asset('admin/js/partials/off-canvas.js')}}"></script>
   <script type="text/javascript" src="{{ asset('admin/js/partials/hoverable-collapse.js')}}"></script>
   <script type="text/javascript" src="{{ asset('admin/js/partials/template.js')}}"></script>
   <script type="text/javascript" src="{{ asset('admin/js/partials/settings.js')}}"></script>
   <script type="text/javascript" src="{{ asset('admin/js/partials/todolist.js')}}"></script>
-  <!-- endinject -->
 </body>
 
 </html>
